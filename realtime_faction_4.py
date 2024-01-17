@@ -38,7 +38,7 @@ class FactionsConfig(Config):
     IMAGE_MIN_DIM = 320
     IMAGE_MAX_DIM = 1024
     RPN_ANCHOR_SCALES = (8 * 6, 16 * 6, 32 * 6, 64 * 6, 128 * 6)  # anchor side in pixels
-    TRAIN_ROIS_PER_IMAGE =100
+    TRAIN_ROIS_PER_IMAGE = 100
     STEPS_PER_EPOCH = 100
     VALIDATION_STEPS = 50
 
