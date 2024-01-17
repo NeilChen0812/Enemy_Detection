@@ -70,10 +70,6 @@ config = InferenceConfig()
 
 model = modellib.MaskRCNN(mode="inference", model_dir=MODEL_DIR, config=config)
 
-
-# Create model object in inference mode.
-model = modellib.MaskRCNN(mode="inference", model_dir=MODEL_DIR, config=config)
-
 # Load weights trained on MS-COCO
 model.load_weights(COCO_MODEL_PATH, by_name=True)
 
