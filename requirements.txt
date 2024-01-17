@@ -1,3 +1,5 @@
+# Environment:
+# OS: Windows 11
 # GPU: NVIDIA GeForce RTX 3050
 # CUDA: 11.2
 # cuDNN: 8.1.1
